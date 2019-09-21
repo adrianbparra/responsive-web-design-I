@@ -179,7 +179,8 @@ footer p {
 /////////////////////////////////////////// */
 
 .top-content {
-	margin: 0 60px;
+    margin: 0 60px;
+    min-width: 900px;
 }
 .top-content .services-header-img {
 	width: 100%;
@@ -201,7 +202,8 @@ footer p {
 	padding: 20px 0;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+    justify-content: space-between;
+    min-width: 900px;
 }
 
 .content-services section {
@@ -237,7 +239,8 @@ footer p {
 	display: flex;
 	margin: 0 60px;
 	flex-wrap: wrap;
-	justify-content: space-between;
+    justify-content: space-between;
+    min-width: 900px;
 }
 .facts section {
 	width: 420px;
@@ -306,6 +309,7 @@ footer p {
     /* /////////////////Services////////////////// */
 
     .top-content {
+        min-width: 0;
         margin: 0 40px;
     }
 
@@ -319,6 +323,7 @@ footer p {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
+    min-width: 0;
     }
 
     .content-services section {
@@ -327,6 +332,7 @@ footer p {
 
     .facts {
         margin: 0 40px;
+        min-width: 0;
     }
 
     .facts .services-info-img {
